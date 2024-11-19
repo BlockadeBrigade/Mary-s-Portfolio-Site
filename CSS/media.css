@@ -1,0 +1,83 @@
+@media only screen and (min-width: 375px) and (max-width:812px){
+
+  body  {
+    padding-top:2rem;
+    padding-bottom:2rem;
+  }
+
+  main, .landingPage {
+    grid-template-columns: 1fr;
+    margin-top:6rem;
+  }
+  
+  
+  
+  footer > .Home-links{
+    margin:0;
+  }
+
+  footer > .Home-links > h2{
+    position:fixed;
+    padding-top:2rem;
+    top:1%;
+
+  }
+
+  .Prt-landing {
+    grid-template-columns: 1fr;
+    padding:2.2rem;
+    gap:8rem;
+    margin-top:8rem;
+  }
+  
+  .Prt-landing > .hover1 , .hover2{
+    top:0%
+  }
+  
+  .image {
+
+    grid-template-columns: repeat(3,1fr);
+
+  }
+
+  .Img-page{
+    position:relative;
+    margin-top:0rem;
+    bottom:7rem;
+  }
+
+  .img-nav {
+    padding:0;
+  }
+
+  .img-nav > .Back-Btn{
+    margin:0.5rem
+  }
+  
+  .btn-left{
+    display:none
+  }
+
+  .btn-right{
+    display:none
+  }
+
+  .man-slides{
+    width:100%;
+    display:grid;
+    grid-auto-flow:column;
+    grid-auto-columns:95%;
+    gap:0.5rem;
+    overflow-x:auto;
+    scroll-snap-type: x proximity;
+    scroll-padding: 0 0.5px;
+  }
+  
+  .man-slides > .mySlides{
+    scroll-snap-align: start;
+    display:block !important;
+    height:95%
+
+  }
+  
+}

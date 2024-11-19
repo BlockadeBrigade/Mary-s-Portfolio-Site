@@ -1,0 +1,279 @@
+
+*{
+  font-family:"Times New Roman";
+  gap: 0;
+  padding: 0;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: 0;
+}
+
+main{
+  display:grid;
+  margin-top: 5rem;
+}
+
+main .landingPage{
+  display:grid;
+  grid-template-columns: 100%;
+}
+
+
+main .title{
+  margin:0;
+  font-size:2rem;
+  margin-left:4rem;
+  margin-top:2rem;
+  margin-bottom:2rem;
+}
+
+
+.slideshow{
+ width: 30rem;
+ height: 40rem;
+ overflow:hidden;
+ place-self: center;
+}
+
+.slides img {
+  width:100%;
+  object-fit:fill;
+}
+
+.Home-links {
+  margin-left: 20rem;
+}
+
+.Home-links a{
+  text-decoration:none;
+  border:0.5rem;
+  color:black;
+  padding:1rem;
+  font-size:1.5rem;
+}
+
+.hover1, .hover2{
+  overflow:hidden;
+  text-decoration:none;
+  text-align: center;
+  font-weight:bold;
+  width:100%;
+  color:black;
+  position:relative;
+  top: 2.5rem;
+
+}
+
+footer{
+  padding-top:2rem;
+}
+
+footer h2 {
+  float: right ;
+  margin-right: 12rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom:0rem;
+  margin-top:0rem;
+}
+
+.Portfolio{
+  margin:0;
+}
+.Prt-landing{
+  display:grid;
+  gap:15rem;
+  padding:4rem;
+  padding-top:8rem;
+  grid-template-columns: repeat(2,1fr)
+}
+
+.Prt-landing img {
+  object-fit:contain;
+  width: 160rem;
+  text-align:center;
+}
+
+.PhotoBook{
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.Image{
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+ .middle1{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  right: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+ }
+
+ .middle1 a{
+   text-decoration:none;
+   color:black;
+ }
+
+
+ .middle2{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+ }
+
+ .middle2 a{
+   text-decoration:none;
+   color:black;
+ }
+
+ .hover1:hover .PhotoBook{
+   opacity: 0.3;
+ }
+
+ .hover1:hover .middle1{
+   opacity: 1;
+ }
+ 
+ .hover2:hover .Image{
+   opacity: 0.3;
+ }
+
+ .hover2:hover .middle2{
+   opacity: 1;
+ }
+
+ .hov-txt1{
+  font-size: calc(1.7vw + 1.7vh);
+ }
+
+ .hov-txt2{
+  font-size: calc(1.7vw + 1.7vh);
+ }
+ 
+ .return{
+   text-decoration:none;
+   color:black;
+   font-size:2rem;
+   padding:0;
+ }
+
+.return:hover, .return:focus{
+  color:red;
+}
+
+.img-nav{
+  padding:1rem;
+}
+
+ .Pht-nav{
+   text-decoration:none;
+   color:black;
+   position:relative;
+   top:2rem;
+ }
+.Pht-nav a{
+  color:black;
+}
+
+ .image{
+  display:grid;
+  gap:2rem;
+  grid-template-columns: repeat(6,1fr);
+ }
+
+.Back-Btn{
+ text-decoration:none;
+ margin-left:3rem;
+ font-size:2rem;
+ color:black;
+ }
+
+.Back-Btn:hover, .Back-Btn:focus{
+  color:red;
+}
+
+
+.Home{
+ float:right;
+ font-size:2rem;
+ text-decoration:none;
+ margin-right:3rem;
+ color:black;
+}
+
+ .img-containter-1 img{
+
+   object-fit:contain;
+   grid-template-rows: row;
+ }
+img {
+   max-width:100%;
+   max-height:100%;
+}
+
+
+.Img-page{
+  position:absolute;
+}
+
+.man-slides{
+  width:100vw;
+  height:100vh;
+  position:relative;
+}
+
+
+.mySlides{
+  display:none;
+  object-fit:contain;
+  width:fit-content;
+  height:75%;
+  margin:auto
+}
+
+.btn-left:hover, .btn-left:active{
+  color:red;
+}
+
+.btn-right:hover, .btn-right:active{
+  color:red;
+
+}
+
+.btn-left{
+  background:none;
+  position:absolute;
+  font-size:3.5rem;
+  left:3rem;
+  top:40%;
+}
+
+.btn-right{
+  background:none;
+  position:absolute;
+  font-size:3.5rem;
+  right:3rem;
+  top:40%;
+}
+
+.img-body{
+
+  overflow:hidden;
+}
