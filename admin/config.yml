@@ -1,11 +1,11 @@
 backend:
   name: github
-  branch: master
-  repo: owner/repo
+  branch: main 
+  repo: BlockadeBrigade/Mary-s-Portfolio-Site
 
 publish_mode: editorial_workflow
-media_folder: static/media
-public_folder: /media
+media_folder: /assets/WEB/uploads
+public_folder: /WEB/uploads
 collections:
   - name: posts
     label: Posts
