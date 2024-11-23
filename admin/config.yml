@@ -4,9 +4,10 @@ backend:
   branch: main 
 
   
+media_folder: "/assets/WEB/upload"
+public_folder: "/assets/WEB/"
+media_library:
+    name: uploads  
+
 collections:
-  media_folder: "/assets/WEB/upload"
-  public_folder: "/assets/WEB/"
-  media_library:
-      name: uploads  
 
