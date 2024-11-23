@@ -2,9 +2,11 @@ backend:
   name: git-gateway 
   repo: BlockadeBrigade/Mary-s-Portfolio-Site
   branch: main 
-  media_folder: "/assets/WEB/upload"
-  public_folder: "/assets/WEB/"
-  collections:
+
+  
+media_folder: "/assets/WEB/upload"
+public_folder: "/assets/WEB/"
+collections:
   - name: "pages"
 
 
