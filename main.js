@@ -4,7 +4,7 @@ let currentImageCounter = 0;
 
 slideShowImages[currentImageCounter].style.display = "block"
 
-const nextImageDelay = 1500;
+let nextImageDelay = 1500;
 
 
 setInterval(nextImage, nextImageDelay)
