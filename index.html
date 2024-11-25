@@ -12,6 +12,7 @@
     <link href="./CSS/media.css" rel="stylesheet">
     <script src="./main.js" async></script>
   </head>
+  <body>
   <main class="landingPage">
     <div class="slideshow">
       <div class="slides">
@@ -35,5 +36,17 @@
           <h2 class="title">Mary Zhang Casting</h2>
         </nav>
       </footer>
+            <script>
+          if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", (user) => {
+              if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                  document.location.href = "/admin/";
+                });
+              }
+            });
+          }
+        </script>
+    </body>
 </html>
 
