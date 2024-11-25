@@ -7,7 +7,7 @@
 
   main, .landingPage {
     grid-template-columns: 1fr;
-    margin-top:6rem;
+    margin-top:7rem;
   }
   
   
@@ -42,12 +42,12 @@
 
   .Img-page{
     position:relative;
-    margin-top:0rem;
     bottom:7rem;
   }
 
   .img-nav {
     padding:0;
+    margin-top:1rem;
   }
 
   .img-nav > .Back-Btn{
