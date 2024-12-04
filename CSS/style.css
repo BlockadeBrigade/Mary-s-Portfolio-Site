@@ -132,7 +132,7 @@ footer h2 {
   opacity: 0;
   position: absolute;
   top: 50%;
-  left: 88%;
+  left: 83%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -194,8 +194,9 @@ footer h2 {
 
  .image{
   display:grid;
-  gap:2rem;
-  grid-template-columns: repeat(6,1fr);
+  gap:0.3rem;
+  grid-template-rows: repeat(5,20rem);
+  grid-template-columns: repeat(6,19.3rem);
  }
 
 .Back-Btn{
@@ -277,3 +278,12 @@ img {
 
   overflow:hidden;
 }
+
+.Pht-imgs{
+  aspect-ratio: 2/1;
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+
