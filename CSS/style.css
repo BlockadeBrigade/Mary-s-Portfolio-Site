@@ -196,7 +196,7 @@ footer h2 {
   display:grid;
   gap:0.3rem;
   grid-template-rows: repeat(5,20rem);
-  grid-template-columns: repeat(6,19.5rem);
+  grid-template-columns: repeat(6,19.9rem);
  }
 
 .Back-Btn{
